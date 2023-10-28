@@ -1,0 +1,52 @@
+
+
+body {
+    font-family: Rubik,sans-serif;
+    font-weight: 500;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.nav__links {
+    display: flex;
+    gap: 1.4rem;
+    transition: all .3s ease-in-out;
+}
+
+
+.logo {
+    width: 15rem;
+}
+
+.nav__buttons {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    gap: 1.4rem;
+    transition: all .3s ease-in-out;
+}
+
+.nav__buttons .sign-in:hover,
+.nav__links .nav__link:hover {
+    color: #ff4d30;
+}
+
+.nav__buttons .sign-up {
+    background-color: #ff4d30;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    color: #fff;
+    padding: .6rem 1.5rem;
+    transition: all .3s;
+}
+
+.nav__buttons .sign-up:hover {
+    background-color: #fa4226;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.5);
+}
